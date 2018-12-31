@@ -1,10 +1,20 @@
 {
-  "author": "whyrusleeping",
+  "contributors": [
+    {
+      "name": "whyrusleeping",
+      "url": "https://github.com/whyrusleeping"
+    },
+    {
+      "name": "crackcomm",
+      "url": "https://github.com/crackcomm",
+      "email": "crackcomm@gmail.com"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/multiformats/go-multibase"
+    "url": "https://github.com/ipfn/go-multibase"
   },
   "gx": {
-    "dvcsimport": "github.com/multiformats/go-multibase"
+    "dvcsimport": "github.com/ipfn/go-multibase"
   },
   "gxDependencies": [
     {
@@ -25,6 +35,5 @@
   "license": "",
   "name": "go-multibase",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "0.3.0"
+  "version": "0.4.0"
 }
-
