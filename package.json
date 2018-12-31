@@ -1,18 +1,18 @@
 {
+  "bugs": {
+    "url": "https://github.com/ipfn/go-multibase"
+  },
   "contributors": [
     {
       "name": "whyrusleeping",
       "url": "https://github.com/whyrusleeping"
     },
     {
+      "email": "crackcomm@gmail.com",
       "name": "crackcomm",
-      "url": "https://github.com/crackcomm",
-      "email": "crackcomm@gmail.com"
+      "url": "https://github.com/crackcomm"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/ipfn/go-multibase"
-  },
   "gx": {
     "dvcsimport": "github.com/ipfn/go-multibase"
   },
@@ -37,3 +37,4 @@
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
   "version": "0.4.0"
 }
+
